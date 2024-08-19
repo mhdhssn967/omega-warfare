@@ -1,0 +1,305 @@
+@media (min-width: 720px) {
+    .mission{
+       display: grid;
+       grid-template-columns: auto auto auto;
+       grid-template-rows: 300px 300px;
+       gap: 10px;
+       margin: 5%;
+    }
+    .missionhead{
+        padding: 10px;
+        font-size: 4vw;
+        font-weight: 800;
+        color: rgb(230, 98, 10);
+        text-align: center;
+        font-size: 1.2rem;
+        position: relative;
+    }
+    .missionpara{
+        font-size: 1rem;  
+        text-align: center;
+        color: white;  
+        padding: 10px; 
+    }
+    .missioncard{
+        color: black;
+        transition: 0.4s;
+    }
+    .buttonlink{
+        padding: 1%;
+        border-radius: 8px;
+    }
+
+    .missioncard:hover{
+        background: linear-gradient(135deg, #2a2a2a 0%, #181818 25%, #1a1a1a 50%, #1f1e1e 75%, #2a2a2a 100%);
+        box-shadow: 0px 0px 10px black ;
+        transform: scale(1.2);
+        transition: 0.4s;
+    }
+    .firstpage{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .firsttext{
+        grid-column: 1 / 2; 
+        grid-row: 1 / 2;
+        background:none;
+    }
+    .firstpageimg{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    .firstpagehead{
+        font-size:3rem;
+    }
+    .firtpagebuttonsdiv{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    .firstlist{
+        font-size: 2rem;
+        margin-top: 2%;
+        font-weight: 700;
+        margin-left: 3%;
+    }
+    .firtpagebuttonsdiv{
+        display:block;
+        margin-top:6% ;
+        margin-left: 3%;
+    }
+    .firstpagebuttons{
+        background-color: rgb(230, 98, 10);
+        text-decoration: none;
+        color: #1A1A1A;
+        font-size: 1rem;
+        font-weight: 600;
+        padding:1%;
+    }
+    .firstpagebuttons:hover{
+        background-color: transparent;
+        color: #ffffff;
+        transition: 0.3s;
+    }
+    .firstpagebuttontwo:hover{
+        background-color: rgb(230, 98, 10);
+        color: #ffffff;
+        transition: 0.3s;
+    }
+    .firstpagebuttontwo{
+        background-color: transparent;
+        border: solid rgb(230, 98, 10) 0.5px;
+        text-decoration: none;
+        color: rgb(230, 98, 10);
+        font-weight: 600;
+        padding: 1%;
+        font-size: 1rem;
+        transition: 0.3s;
+    }
+    .headingsmain{
+        font-weight:bolder;
+        text-align: center;
+        margin-top: 5%;
+        color: #F5F5F5;
+        font-size: 2.5vw;
+        letter-spacing: 2px;
+    }
+    .latest{
+        margin-top: 5%;
+    }
+    .latestcard{
+        width: 800px;
+        height: fit-content;
+        background-image: linear-gradient(to top right, rgb(247, 73, 4), transparent);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 10px 7px black;
+    }
+    .carousalhead{
+        font-size: 1.2vw;
+        font-weight: 600;
+    }
+    .carimg{
+        width: auto;
+        overflow: hidden;
+    }
+    .missionhead{
+        font-size: 1vw;
+        font-weight: 800;
+        color: rgb(230, 98, 10);;
+    }
+    .headings{
+        font-weight:bolder;
+        text-align: center;
+        margin-top: 2vh;
+        color: #F5F5F5;
+        font-size: 2vw;
+        letter-spacing: 2px;
+    }
+    .catalogue{
+        margin: 6%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    .catitems{
+        height: 400px;
+        display: flex;
+        background: linear-gradient(135deg, #2a2a2a 0%, #3e3e3e 25%, #1a1a1a 50%, #3e3e3e 75%, #2a2a2a 100%);
+        margin-top: 3%;
+        align-items: center;
+        border-radius: 4px;
+        outline: solid 0.5px rgb(0, 0, 0);
+        box-shadow: 0px 0px 10px black;
+        justify-content: center;
+    }
+    .catcont{
+        margin:3%;
+    }
+    .catlist{
+        list-style: none;
+        
+    }
+    .catlistitemspan{
+        color: rgb(230, 98, 10);
+        font-weight: 700;
+    }
+    .catitems{
+        display: flex;
+    }
+    .catlisthead{
+        color: rgb(255, 255, 255);
+        font-weight: 800;
+        font-size: 3vw;
+        padding-top: 60%;
+        transition: 0.5s;
+    }
+    .catlistitem{
+        color:#F5F5F5;
+        font-size: 1vw;
+        margin-top: 3%;
+        margin-left: -7%;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    .catitems:hover .catlisthead{
+        padding-top: 5%;
+        transition: 0.5s;
+        color: rgb(230, 98, 10);
+        font-size: 1.6vw;
+    }
+    .catitems:hover .catlistitem{
+        opacity: 1;
+        transition: 0.5s;
+    }
+    .catitems:hover .catimgone{
+        transform: scale(1.1);
+        transition: 0.8s;
+        box-shadow: 0px 0px 10px 3px rgb(230, 98, 10);
+    }
+    .catimgone
+    {
+    width: 20vw;
+    transition: 0.8s;
+    }
+    .manupara{
+        margin: 1.5%;
+        text-align: justify;
+    }
+    
+    .merch
+    {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 14%;
+    }
+    .merchimg{
+        width:100%;
+        filter: brightness(1);
+        transition: 0.3s;
+    }
+    .merchcont{
+        transition: 0.3s;
+    }
+    .merchtext{
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        z-index: 1;
+        color: rgb(255, 255, 255);
+        font-size: 1.5vw;
+        margin: 6%;
+        opacity: 0;
+    }
+    .merchcont:hover .merchimg{
+        filter: brightness(0.4);
+        transition: 0.3s;
+        transform:skew(3deg) scale(1.1);  
+    }
+    .merchcont:hover .merchtext{
+        opacity: 1;
+        transition: 0.3s;
+    }
+    .learnlink{
+        cursor: pointer;
+    }
+    footer{
+      background-color: #111111;
+      height: 300px;
+      width: 100vw;
+    }
+    .navbar-toggler-light{
+        display: none;
+    }
+    .nav-link{
+        margin-left: 4rem;
+    }
+    .nav-link:hover {
+        color: rgb(230, 98, 10) !important;
+        transform: scale(1.1);
+    }
+    .navbar-nav{
+        margin-left: 40%;
+    }
+    .footerhead{
+        color: rgb(230, 98, 10);
+        font-size: 1.3rem;
+        display: flex;
+        font-weight: 800;
+        align-items: center;
+        margin-left: 9%;
+    }
+    .footerdiv{
+        justify-content: space-between;
+        display: flex;  
+        margin-top: 2%;      
+    }
+    .footerlist{
+        list-style: none;
+        margin-top: 2%;
+    }
+    .footerlist a{
+        color: white;
+        text-decoration: none;
+    }
+    .footerlinks{
+        padding-right: 2%;
+        width: 350px;
+        text-align: left;
+    }
+    .footerlist:hover a{
+        text-decoration: underline;
+    }
+    .footerlist:hover{
+        transform: scale(1.02);
+    }
+    .footimgdiv{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

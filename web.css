@@ -1,0 +1,294 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0%;
+}
+body{
+    background-color: #1A1A1A;
+}
+.navbar{
+    background-color: #1A1A1A;
+    width: 100%;
+}
+#navbutton{
+    border-radius: 10px;
+    background-color: #1A1A1A;
+}
+.navi-link{
+    color: white;
+}
+
+.firsthead{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.landing{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainhead{ 
+    font-size: 5vw;
+    font-weight: 700;
+    color: #F5F5F5;
+}
+.firstpara{
+    text-align: center;
+    font-weight: 300;
+    font-size: 3vw;
+    color: #F5F5F5;
+}
+.maincontainer{
+    width:100vw
+}
+.buttonlink{
+    background-color: rgb(230, 98, 10);
+    color: white;
+    text-decoration: none;
+    padding: 2%;
+    border-radius: 3px;
+    font-size: 1.8vw;
+    font-weight: 600;
+}
+
+.headings{
+    font-weight:bolder;
+    text-align: center;
+    margin-top: 2vh;
+    color: #F5F5F5;
+    font-size: 5vw;
+    letter-spacing: 2px;
+}
+.headingsmain{
+    font-weight:bolder;
+    text-align: center;
+    margin-top: 4vh;
+    color: #F5F5F5;
+    font-size: 5vw;
+    letter-spacing: 2px;
+}
+.latest{
+    display: flex;
+    margin-top: 25%;
+    justify-content: center;
+}
+.latestcard{
+    width: 80vw;
+    height: 50vw;
+    background-image: linear-gradient(to top right, rgb(247, 73, 4), transparent);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 7px black;
+}
+.carousalhead{
+    font-size: 1vw;
+    font-weight: 600;
+}
+.carimg{
+    width: 100vw;
+}
+.missionhead{
+    font-size: 4vw;
+    font-weight: 800;
+    color: rgb(230, 98, 10);;
+}
+.missionpara{
+    font-size: 3vw;  
+    text-align: justify;
+    color: white;  
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.missioncard{
+    margin: 5%;
+    color: black;
+}
+
+.combatimg{
+    width: 100%;
+}
+.firstpage{
+    margin: 4%;
+    position: relative;
+}
+.firsttext{
+    width: 100%;
+    height:92%;
+    background:linear-gradient(to top right, black, transparent);
+    position: absolute;
+    padding-top: 3%;
+    padding-left: 4%;  
+    z-index: 1;
+}
+.firstpagehead{
+    font-weight: 800;
+    font-size: 4vw;
+    color:rgb(255, 255, 255);
+}
+.firtpagebuttonsdiv{
+display: flex;
+display: block;
+margin-top: 35%;
+margin-bottom: 10%;
+justify-content: space-between;
+}
+.firstcont{
+    color: #F5F5F5;
+}
+.firstpageimg1{
+    margin-bottom: 5%;
+}
+.firstpageimg1{
+    width: 100%;
+}
+.firstpagebuttons{
+    background-color: rgb(230, 98, 10);
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size: 1rem;
+    font-weight: 600;
+    padding:2%;
+    border: solid rgb(230, 98, 10) 0.5px;
+
+}
+.firstpagebuttontwo{
+    background-color: transparent;
+    border: solid rgb(230, 98, 10) 0.5px;
+    text-decoration: none;
+    color: rgb(230, 98, 10);
+    font-weight: 600;
+    padding: 2%;
+    font-size: 1rem;
+}
+.catalogue{
+    margin: 5%;
+}
+.catitems{
+    height: fit-content;
+    display: flex;
+    background: linear-gradient(135deg, #2a2a2a 0%, #3e3e3e 25%, #1a1a1a 50%, #3e3e3e 75%, #2a2a2a 100%);
+    margin-top: 3%;
+    align-items: center;
+    border-radius: 4px;
+    outline: solid 0.5px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px black;
+    justify-content: center;
+}
+.catcont{
+    margin:3%;
+}
+.catlist{
+    list-style: none;
+    
+}
+.catlistitemspan{
+    color: rgb(230, 98, 10);
+    font-weight: 700;
+}
+.catitems{
+    display: flex;
+}
+.catlisthead{
+    color: rgb(230, 98, 10);
+    font-weight: 800;
+    font-size: 5vw;
+}
+.catlistitem{
+    color:#F5F5F5;
+    font-size: 2.2vw;
+    margin-top: 3%;
+    margin-left: -10%;
+}
+.catimgone
+{
+width: 40vw;
+}
+.manvid{
+    width: 50vw;
+}
+.manufacturing{
+    display: flex;
+    font-size: 2vw;
+    color: #F5F5F5;
+    margin: 3%;
+}
+.manuhead{
+    color: rgb(230, 98, 10);
+    font-size: 3vw;
+    font-weight: 700;
+}
+.manupara{
+    margin: 2%;
+    text-align: justify;
+}
+.merch
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2%;
+}
+.merchimg{
+    width:100%;
+    filter: brightness(0.4);
+}
+.merchcont{
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+
+}
+.merchtext{
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    z-index: 1;
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    margin: 6%;
+}
+.merchhead{
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+@media (max-width:720px) {
+    .footertext{
+        display: none;
+    }
+    .footerdiv{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3%;
+    }
+    .footerhead{
+        color: rgb(230, 98, 10);
+        font-size: 15px;
+        text-align: center;
+        font-weight: 800;
+        cursor: pointer;
+        padding-bottom: 3%;
+        border-bottom: rgb(54, 54, 54) solid 0.5px ;
+    }
+    .footimgdiv{
+        margin-top: 3%;
+    }
+    .ftwo{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        background-color: #111111;
+    }
+}
